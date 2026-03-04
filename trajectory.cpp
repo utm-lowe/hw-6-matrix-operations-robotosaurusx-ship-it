@@ -97,7 +97,7 @@ int main() {
         // 3. If position exceeds grid height, update grid height
         if (position.at(1, 0) + 1 > gridHeight)
         {
-            gridHeight = static_cast<int>(position.at(1, 0)) + 1;
+            gridHeight = position.at(1, 0) + 1;
         }
 
         // We will be talking about the vector object a little later. If you 
