@@ -36,7 +36,7 @@
     {
         for (int o = 0; o < n; o++)
         {
-            ar[m][n] = rhs.ar[m][n];
+            ar[i][o] = rhs.ar[i][o];
         }
     }
  }
@@ -102,7 +102,7 @@
     {
         for (int o = 0; o < n; o++)
         {
-            ar[m][n] = rhs.ar[m][n];
+            ar[i][o] = rhs.ar[i][o];
         }
     }
     return *this;
