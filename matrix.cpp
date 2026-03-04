@@ -185,7 +185,7 @@
     {
         for (int j = 0; j < m.getCols(); j++)
         {
-            os << std::setw(11) << m.at(i, j);
+            os << std::setw(10) << m.at(i, j);
         }
         os << " \n";
     }
